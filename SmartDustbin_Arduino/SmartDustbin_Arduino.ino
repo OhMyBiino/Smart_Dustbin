@@ -16,7 +16,7 @@ const int BigServoPin = 9;  // The sorter arm
 const int MiniServoPin = 10; // The lid opener
 
 Servo bigServo;
-Servo miniServo;
+Servo miniServo; //lid opener
 
 // Variable to store the category received from ESP32
 char trashCategory; 
